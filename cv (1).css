@@ -1,0 +1,209 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Lato&family=Rubik:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+
+
+}
+div.container {
+    width: 960px;
+    margin: 0 auto;
+    display: flex;
+    box-shadow: 0 0 1px rgb(0 0 0 / 50%);
+
+}
+div.sidebar{
+
+
+    width: 25%;
+    background-color: rgb(205,230,190);
+}
+div.main {
+    width: 75%;
+}
+img {
+    width: autopx;
+    height: 130px;
+
+
+}
+div.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+
+}
+div.title {
+    padding: 30px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    height: 180px;
+    color: white;
+    background-color: rgb(99,99,99);
+}
+div.title h2, div.title p {
+    margin: 0;
+}
+div.title h2 {
+    font-size: 30px;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 15px solid transparent;
+    border-right: 30px solid rgb(99,99,99);
+    border-bottom: 15px solid transparent;
+}
+.arow-body {
+    height: 30px;
+    line-height: 30px;
+    width: 80%;
+    background-color: rgb(99,99,99);
+    padding-left: 15px;
+}
+.arow {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 20px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.icon {
+    width: 25px;
+    fill: rgb(99,99,99);
+    stroke: rgb(99,99,99);
+}
+div.contact-item {
+    padding-left: 15px;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin-bottom: 10px;
+}
+div.contact-item-text {
+    padding: 0 15px;
+}
+div.contact-item-text p {
+    margin: 0;
+    margin-bottom: 5px;
+}
+.icon-mail {
+stroke: black;
+}
+.icon-map {
+    width: 30px;
+}
+.skill {
+    padding-left: 15px;
+    margin-bottom: 40px;
+}
+.skill-line {
+    display: inline-block;
+    width: 50px;
+    border: 1px solid rgb(155, 148, 148);
+    margin-right: 10px;
+}
+.skill-item {
+    margin: 0;
+    line-height: 5px;
+}
+.skill-point {
+    border: 1px solid black;
+
+}
+div.main div.content {
+    padding: 10px 20px;
+}
+div.main div.content h4 {
+    margin: 0;
+}
+.content-title {
+    padding: 10px 0;
+    background-color: rgb(205,230,190);
+    text-align: center;
+}
+.content-item p {
+    line-height: 1.5;
+}
+ol {
+    list-style-type: none;
+}
+li {
+    position: relative;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    width: 120px;
+    flex-shrink: 0;
+
+}
+.section-content-row {
+    display: flex;
+    gap: 30px;
+}
+li:before {
+    content: '';
+    background-color: gray;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 4px;
+    width: 3px;
+}
+
+li:after {
+    content: '';
+    background-color: black;
+
+    top: 5px;
+    border-radius: 50%;
+    z-index: 1;
+    position: absolute;
+
+    left: 0;
+    height: 10px;
+    width: 10px;
+}
+.section-content-row  p {
+    margin: 0;
+}
+.icon-attitute {
+    width: 15px;
+    position: relative;
+    top: 3px;
+}
+.attitute-item {
+    display: inline-block;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+.attitute-item span {
+    display: inline-block;
+    width: 90px;
+
+}
+.time-line p {
+    padding-left: 15px;
+    line-height: 1.8;
+}
+.time-line div p:first-child {
+    padding-left: 0;
+}
+.section-content-row {
+    margin-bottom: 20px;
+}
+.arow{
+    margin-top: 20px;
+}
